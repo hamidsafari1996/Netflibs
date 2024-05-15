@@ -1,0 +1,13 @@
+function openNav(){document.getElementById("mySidenav").style.width="250px"}function closeNav(){document.getElementById("mySidenav").style.width="0"}jQuery(document).ready(function(e){e('[data-toggle="tooltip"]').tooltip(),e(window).scroll(function(){0<e(this).scrollTop()?e("#scroller").fadeIn():e("#scroller").fadeOut()}),e("#scroller").click(function(){return e("body,html").animate({scrollTop:0},400),!1}),e(".popup-youtube").magnificPopup({type:"iframe",mainClass:"mfp-fade",removalDelay:160,preloader:!1,fixedContentPos:!1}),e(".movie-slider").owlCarousel({rtl:!0,loop:!0,nav:!0,dots:!1,margin:25,responsiveClass:!0,responsive:{0:{items:2,nav:!1},600:{items:4,nav:!1},1e3:{items:6}}}),e(".mov-cat-carousel").owlCarousel({rtl:!0,loop:!0,nav:!0,dots:!1,margin:25,responsiveClass:!0,responsive:{0:{items:2,nav:!1},600:{items:3,nav:!1},1e3:{items:6}}}),e(".movie-filimo-carousel").owlCarousel({rtl:!0,loop:!0,nav:!1,dots:!0,margin:25,responsiveClass:!0,responsive:{0:{items:2,nav:!1,dots:!1},600:{items:3,nav:!1,dots:!1},1e3:{items:6}}}),e(".rand-film").owlCarousel({rtl:!0,loop:!0,nav:!0,dots:!1,margin:30,responsiveClass:!0,responsive:{0:{items:2,nav:!1,margin:5},600:{items:3,nav:!1},1e3:{items:5}}}),e(".random-product-film").owlCarousel({rtl:!0,loop:!0,nav:!0,dots:!1,margin:30,responsiveClass:!0,responsive:{0:{items:2,nav:!1},600:{items:3,nav:!1},1e3:{items:6}}}),e(".gallery-section").owlCarousel({rtl:!0,loop:!0,nav:!0,dots:!1,margin:25,responsiveClass:!0,responsive:{0:{items:2,nav:!1},600:{items:3,nav:!1},1e3:{items:6}}}),sinstances=plyr.setup(".js-player"),e(".faverit-button .simplefavorite-button").on("click",function(){const e=Swal.mixin({toast:!0,position:"top-end",showConfirmButton:!1,timer:3e3,timerProgressBar:!0,didOpen:e=>{e.addEventListener("mouseenter",Swal.stopTimer),e.addEventListener("mouseleave",Swal.resumeTimer)}});e.fire({icon:"success",title:"فهرست علاقه‌مندی را چک کنید"})}),e(".faverit-button-error .simplefavorite-button").on("click",function(){const e=Swal.mixin({toast:!0,position:"top-end",showConfirmButton:!1,timer:3e3,timerProgressBar:!0,didOpen:e=>{e.addEventListener("mouseenter",Swal.stopTimer),e.addEventListener("mouseleave",Swal.resumeTimer)}});e.fire({icon:"error",title:"ابتدا وارد شوید"})})});
+jQuery(document).ready(function($){
+      
+      $("#register-account").click(function(){
+          $("#register-box").removeClass("d-none");
+          //$("#register-box").addClass("d-block");
+          $("#login-box").addClass("d-none");
+      });
+      $("#login-account").click(function(){
+          $("#register-box").addClass("d-none");
+          $(".zshow").removeClass("d-none");
+      });    
+  });

@@ -1,0 +1,34 @@
+#elementor-panel-category-first-category .icon::after,#elementor-panel-category-secend-category .icon::after, #elementor-panel-category-tree-category .icon::after, #elementor-panel-category-four-category .icon::after, #elementor-panel-category-five-category .icon::after{
+	content: 'NETFLIBS';
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 9px;
+	font-weight: 400;
+	padding: 1px 2px;
+	line-height: 10px;
+	display: inline-block;
+	border-radius: 2px;
+	font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+	background: #E91E63;
+	color: #fff;
+}
+#elementor-panel-category-first-category .icon,
+#elementor-panel-category-secend-category .icon, 
+#elementor-panel-category-tree-category .icon, 
+#elementor-panel-category-four-category .icon, 
+#elementor-panel-category-five-category .icon{
+	font-family: fontawesome,'fontawesome';
+}
+.cmb2-options-page.wrap  h2{
+	/* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+	background: rgba( 255, 255, 255, 0.25 );
+	background-image: none;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
