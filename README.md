@@ -5,6 +5,7 @@ This WordPress theme is specifically designed for creating websites for movies a
 Key Features
 
 •	Header Builder: Create and edit custom headers for different pages of your website.
+
 •	Footer Builder: Design and manage custom footers with various styles.
 •	Template Builder: Create custom templates for different pages and display specific content.
 •	Sidebar Builder: Build custom sidebars with the ability to insert various widgets.
