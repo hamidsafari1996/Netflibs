@@ -1,7 +1,8 @@
 <?php
 
 define("path",get_template_directory_uri());
-function welearn_setup(){
+
+function netflibs_setup(){
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('woocommerce');
@@ -15,19 +16,12 @@ function welearn_setup(){
         )
     );
 }
-add_action("after_setup_theme","welearn_setup");
+add_action("after_setup_theme","netflibs_setup");
 
-
-
-
-
-if ( ! class_exists( 'theme_setup_netflibs' ) ) {
-require_once dirname( __FILE__ ) .'/template/inc/examples/imdb.rating.php';
-}
 require_once dirname( __FILE__ ) . '/cmb2/init.php';
+
 require_once dirname( __FILE__ ) . '/functions/f-setting.php';
 require_once dirname( __FILE__ ) . '/functions/cmb2-metabox.php';
-require_once dirname( __FILE__ ) . '/widget/widget.php';
 require_once dirname( __FILE__ ) . '/functions/booke-post_type.php';
 require_once dirname( __FILE__ ) . '/functions/ads-posttype.php';
 require_once dirname( __FILE__ ) . '/functions/custom-header.php';
@@ -44,23 +38,20 @@ require_once dirname( __FILE__ ) . '/functions/taxonomy-ganre.php';
 require_once dirname( __FILE__ ) . '/functions/taxonomy-country.php';
 require_once dirname( __FILE__ ) . '/functions/taxonomy-actor.php';
 require_once dirname( __FILE__ ) . '/functions/woo-functions.php';
+require_once dirname( __FILE__ ) . '/functions/custom-template.php';
+require_once dirname( __FILE__ ) . '/functions/taxonomy-sedapishe.php';
+require_once dirname( __FILE__ ) . '/functions/taxonomy-translate.php';
+require_once dirname( __FILE__ ) . '/functions/functions-base.php';
+
+require_once dirname( __FILE__ ) . '/widget/widget.php';
 require_once dirname( __FILE__ ) . '/widget/custom-elementor.php';
 require_once dirname( __FILE__ ) . '/widget/category-elementor.php';
-require_once dirname( __FILE__ ) . '/template/new-comments.php';
+
 require_once dirname( __FILE__ ) . '/functions-netflibs.php';
+
+require_once dirname( __FILE__ ) . '/template/new-comments.php';
 require_once dirname( __FILE__ ) . '/template/inc/imdb.class.php';
-function license_function() {
-  if( theme_setup_netflibs::is_activated() === true ) {
-    // License is activated
-    } else {
-    ?>
-    <div class="theme-setup-net">
-      <a href="<?php echo site_url(); ?>/wp-admin/index.php?page=NETFLIBS-license">لایسنس خود را وارد کنید</a>
-    </div>
-    <?php
-    }
-}
-add_action( 'wp_footer', 'license_function' );
+
 
 function coagex_widgets_init()
 {
