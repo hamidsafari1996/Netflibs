@@ -1,4 +1,4 @@
-##  🎬 Netflibs – WordPress Theme for Movies & Series
+#  🎬 Netflibs – WordPress Theme for Movies & Series
 
 `This theme has not been updated for a long time and is likely to have bugs and errors. It is mainly intended for customers who previously purchased the theme and can now use it without a license. Please note that no updates have been released for a long time, so bugs and errors are expected.`
 
