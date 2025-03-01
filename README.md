@@ -44,10 +44,6 @@ Netflibs is a powerful and flexible WordPress theme designed for movie and serie
 ### 📌 Notes
 - **This Theme Was Developed For Persian (Farsi) Speakers, And Linguistic Principles For Other Languages Have Not Been Implemented. Previously, It Was Sold On The Zhaket.Com Platform With A License. However, This License Has Now Been Removed, And You Are Free To Use It. **
 
-[========]
 
 - To unlock full features, it is recommended to install Elementor and WooCommerce.
 - For VIP memberships, install and configure Restrict Content.
-
-### 📞 Support
-Currently, No Support Is Available, But You Can Use This Theme For Free.
